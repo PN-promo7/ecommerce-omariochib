@@ -1,0 +1,106 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  /* Element Html cachés */
+  body {
+    position: relative;
+  }
+
+  nav {
+    display: none;
+  }
+
+  /* Elements html appelés */
+  .nav-resp {
+    position: fixed;
+    display: block;
+    padding-left: 5px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  h1 {
+    margin-bottom: 9px;
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 0.6rem;
+  }
+
+  .navigation-resp {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .nav-resp img {
+    height: 20%;
+  }
+
+  . {
+    flex-direction: column;
+  }
+
+  header {
+    height: 100%;
+    width: 100%
+  }
+
+  header .page-principal {
+    height: 100%;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .main-nav li {
+    padding-right: 15px;
+  }
+}
+
+.row2 {
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.article-image {
+  height: 100%;
+  width: 100%;
+}
+
+.livraison {
+  height: 30%;
+}
+
+.delivery .car, .delivery .card, .delivery .trip {
+  font-size: 1rem;
+  width: 50%;
+}
+
+.delivery i {
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.news-appl-google {
+  flex-direction: column;
+}
+
+.record {
+  flex-direction: column;
+}
